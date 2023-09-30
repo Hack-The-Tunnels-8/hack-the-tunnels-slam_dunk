@@ -1,8 +1,8 @@
 .home-page {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   &__title {
     color: red;
   }
-
   &__products {
     display: flex;
     flex-direction: column; 
