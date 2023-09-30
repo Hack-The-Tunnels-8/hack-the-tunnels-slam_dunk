@@ -4,7 +4,7 @@ interface Props {
   title: string;
   description: string;
   price: number;
-  imageUrl: string;
+  imageUrl: "https://cdn.imgbin.com/15/3/14/imgbin-miami-heat-chicago-bulls-nba-jersey-swingman-nba-tp8z3TSyh4NdzNPK6zxTT7580.jpg";
 }
 
 function ProductPreviewcard({ title, description, price, imageUrl }: Props) {
