@@ -30,14 +30,14 @@ function Home() {
       title: "Jerseys",
       description: "Current, Throwbacks, Fan Favourites",
       price: "$$$",
-      imageUrl: "https://sothebys-md.brightspotcdn.com/d5/cb/08699cf345dfb16d6d7d28e33378/bqt8s-1.jpg",
+      imageUrl: "https://i.postimg.cc/W3Q65rHv/bqt8s-1-removebg-preview.png",
     },
     {
       id: 3,
       title: "Accessories",
       description: "Basketballs, Headbands, Lanyards",
       price: "$",
-      imageUrl: "https://images.footballfanatics.com/nike-white-nba-headband_pi2694000_ff_2694897_full.jpg?_hv=2",
+      imageUrl: "https://i.postimg.cc/CM9nfSWW/Capture-removebg-preview.png",
     },
     {
       id: 4,
