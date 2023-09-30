@@ -44,7 +44,7 @@ function Home() {
       title: "Footwear",
       description: "LeBrons, Kyries, KDs, & more",
       price: "$$-$$$",
-      imageUrl: "https://e7.pngegg.com/pngimages/802/123/png-clipart-sports-shoes-basketball-shoe-sportswear-product-lebron-12-blue-white.png",
+      imageUrl: "https://i.postimg.cc/jjNwqNFC/png-clipart-sports-shoes-basketball-shoe-sportswear-product-lebron-12-blue-white-removebg-preview.png",
     },
     
   ];
