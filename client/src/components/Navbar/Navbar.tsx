@@ -10,7 +10,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <Link to="/">Store Logo</Link>
+        <Link to="/">
+          <img src="https://slamdunkmerch.com/wp-content/uploads/2022/12/Slam-Dunk-Store_Logo.png" alt="Store Logo" />
+        </Link>
       </div>
       <div className="navbar__account">
         {loggedIn() === false ? (

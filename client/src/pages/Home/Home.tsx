@@ -52,7 +52,6 @@ function Home() {
   return (
     <Page>
       <div className="home-page">
-        <h1 className="home-page__title">Home</h1>
         <h2>Products:</h2>
         <div className="home-page__products">
           {newProducts.map((product) => (
