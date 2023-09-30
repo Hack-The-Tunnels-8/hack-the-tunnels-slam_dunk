@@ -5,11 +5,22 @@
 
   &__products {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 
     a {
       text-decoration: none;
       color: inherit;
     }
+  }
+}
+body {
+  background-color: white;
+  color: grey;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: grey;
+    color: white;
   }
 }
