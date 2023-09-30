@@ -1,14 +1,25 @@
 .product-preview-card {
   &__title {
-    font-style: bold;
+    font-weight: bold; /* Use 'font-weight' instead of 'font-style' for bold text */
     color: green;
+    margin-top: 8px; /* Example margin */
   }
 
   &__description {
     color: blue;
+    margin-top: 4px; /* Example margin */
   }
 
   &__image {
-    width: 10rem;
+    width: 100%; /* Make the image width 100% of the container */
+    max-width: 200px; /* Example maximum width */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 4px; /* Example border radius for the image */
+  }
+
+  &__price {
+    font-weight: bold;
+    color: #ff5733; /* Example color for price */
+    margin-top: 8px; /* Example margin */
   }
 }

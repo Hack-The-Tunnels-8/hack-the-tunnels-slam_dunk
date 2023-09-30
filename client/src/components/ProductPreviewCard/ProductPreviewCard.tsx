@@ -20,49 +20,4 @@ function ProductPreviewCard({ title, description, price, imageUrl }: Props) {
   );
 }
 
-function App() {
-  // Define data for multiple product cards
-  const products = [
-    {
-      title: "Apparel",
-      description: "T-Shirts, Tank Tops, Hoodies, Shorts, Pants",
-      price: 19.99,
-      imageUrl: "https://i.pinimg.com/originals/62/98/b0/6298b026a65cf80bcf9dce061e9b79c9.png",
-    },
-    {
-      title: "Jerseys",
-      description: "Current, Throwbacks, Fan Favourites",
-      price: 24.99,
-      imageUrl: "https://sothebys-md.brightspotcdn.com/d5/cb/08699cf345dfb16d6d7d28e33378/bqt8s-1.jpg",
-    },
-    {
-      title: "Accessories",
-      description: "Basketballs, Headbands, Lanyards",
-      price: 29.99,
-      imageUrl: "https://images.footballfanatics.com/nike-white-nba-headband_pi2694000_ff_2694897_full.jpg?_hv=2",
-    },
-    {
-      title: "Footwear",
-      description: "LeBrons, Kyries, KDs, & more",
-      price: 14.99,
-      imageUrl: "https://e7.pngegg.com/pngimages/802/123/png-clipart-sports-shoes-basketball-shoe-sportswear-product-lebron-12-blue-white.png",
-    },
-    
-  ];
-
-  return (
-    <div>
-      {products.map((product, index) => (
-        <ProductPreviewCard
-          key={index}
-          title={product.title}
-          description={product.description}
-          price={product.price}
-          imageUrl={product.imageUrl}
-        />
-      ))}
-    </div>
-  );
-}
-
 export default ProductPreviewCard;
