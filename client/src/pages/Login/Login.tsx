@@ -28,8 +28,16 @@ function Login() {
     <Page>
       <div className="login-page">
         <h1>Login</h1>
+        <label htmlFor="Email">Email:</label>
+        <br />
+        <input type="Email" name="email" id="emal" />
+        <br />
+        <label htmlFor="Password">Password:</label>
+        <br />
+        <input type="Password" name="password" id="password" />
+        <br />  
         <button onClick={() => attemptLogin()}>
-          Login (as user set in code)
+          Login
         </button>
         {message && <p>{message}</p>}
       </div>
