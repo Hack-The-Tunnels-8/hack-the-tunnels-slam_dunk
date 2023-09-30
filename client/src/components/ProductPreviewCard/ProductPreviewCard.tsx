@@ -24,35 +24,30 @@ function App() {
   // Define data for multiple product cards
   const products = [
     {
-      title: "Throwback Jerseys",
-      description: "Description for Product 1",
+      title: "Apparel",
+      description: "T-Shirts, Tank Tops, Hoodies, Shorts, Pants",
       price: 19.99,
-      imageUrl: "https://cdn.vox-cdn.com/thumbor/uchBBEKqjFjdUCYrncfixLKJcMk=/0x0:2000x2000/1200x0/filters:focal(0x0:2000x2000):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19279114/Lowry1.png",
+      imageUrl: "",
     },
     {
-      title: "Product 2",
-      description: "Description for Product 2",
+      title: "Jerseys",
+      description: "Current, Throwbacks, Fan Favourites",
       price: 24.99,
-      imageUrl: "https://example.com/product2.jpg",
+      imageUrl: "https://sothebys-md.brightspotcdn.com/d5/cb/08699cf345dfb16d6d7d28e33378/bqt8s-1.jpg",
     },
     {
-      title: "Product 3",
-      description: "Description for Product 3",
+      title: "Accessories",
+      description: "Basketballs, Headbands, Lanyards",
       price: 29.99,
-      imageUrl: "https://example.com/product3.jpg",
+      imageUrl: "https://images.footballfanatics.com/nike-white-nba-headband_pi2694000_ff_2694897_full.jpg?_hv=2",
     },
     {
-      title: "Product 4",
-      description: "Description for Product 4",
+      title: "Footwear",
+      description: "LeBrons, Kyries, KDs, & more",
       price: 14.99,
-      imageUrl: "https://example.com/product4.jpg",
+      imageUrl: "https://e7.pngegg.com/pngimages/802/123/png-clipart-sports-shoes-basketball-shoe-sportswear-product-lebron-12-blue-white.png",
     },
-    {
-      title: "Product 5",
-      description: "Description for Product 5",
-      price: 34.99,
-      imageUrl: "https://example.com/product5.jpg",
-    },
+    
   ];
 
   return (
