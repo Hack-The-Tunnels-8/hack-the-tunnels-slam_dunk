@@ -27,7 +27,7 @@ function App() {
       title: "Apparel",
       description: "T-Shirts, Tank Tops, Hoodies, Shorts, Pants",
       price: 19.99,
-      imageUrl: "",
+      imageUrl: "https://i.pinimg.com/originals/62/98/b0/6298b026a65cf80bcf9dce061e9b79c9.png",
     },
     {
       title: "Jerseys",
