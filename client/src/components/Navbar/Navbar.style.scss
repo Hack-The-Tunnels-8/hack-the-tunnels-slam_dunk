@@ -1,18 +1,5 @@
 .navbar {
   display: flex;
-  position: fixed;
-  width: 50%;
+  width: 100%;
   justify-content: space-between;
-}
-.navbar__logo {
-  width: 100px;
-  height: 100px;
-  padding: auto;
-}
-
-.navbar__account {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
 }
